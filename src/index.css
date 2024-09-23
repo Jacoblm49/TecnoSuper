@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/*      Variables pare  reutilizar estilos */
+:root {
+  --primary-color: #F8F2FF;
+  --secondary-color:  #792EDE;
+  --complementary-color: #5E18BB;
+
+}
