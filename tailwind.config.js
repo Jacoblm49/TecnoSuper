@@ -11,6 +11,9 @@ export default {
         "secondary-color": "var(--secondary-color)",
         "complementary-color": "var(--complementary-color)"
       },
+      fontFamily:{
+        montserrat: ['Montserrat', 'sans-serif'],
+      }
     },
   },
   plugins: [],

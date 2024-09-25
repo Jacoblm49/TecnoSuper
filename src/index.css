@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 
+/* Importar fuente Monserrat desde googleFonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /*      Variables pare  reutilizar estilos */
 :root {
   --primary-color: #F8F2FF;
   --secondary-color:  #792EDE;
   --complementary-color: #5E18BB;
-
 }

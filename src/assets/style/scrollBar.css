@@ -1,0 +1,19 @@
+@import url('../../index.css');
+
+.scroll-custom::-webkit-scrollbar {
+    height: .5em; /* Altura de la barra de desplazamiento horizontal */
+  }
+  
+  .scroll-custom::-webkit-scrollbar-track {
+    background: transparent; /* Color de fondo de la pista */
+  }
+  
+  .scroll-custom::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color); /* Color del pulgar (parte que se desplaza) */
+    border-radius:10px; /* Redondear el pulgar */
+  }
+  
+  .scroll-custom::-webkit-scrollbar-thumb:hover {
+    background-color: var(--complementary-color); /* Color del pulgar cuando está en hover */
+  }
+  
