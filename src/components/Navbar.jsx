@@ -28,7 +28,7 @@ export const Navbar = () => {
             </div>
 
             <div className="w-1/8 ">
-              <img className="w-2/3 m-auto" src={logo} alt="logoTecnoSuper" />
+              <img className="w-full m-auto" src={logo} alt="logoTecnoSuper" />
             </div>
 
             <div className="flex gap-10 font-principal-font">

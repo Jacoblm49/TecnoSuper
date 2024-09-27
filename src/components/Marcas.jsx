@@ -13,9 +13,9 @@ export const Marcas =()=>{
        <div className='w-full h-auto flex justify-center items-center flex-col p-10 mt-40'>
     <div className='w-full h-auto flex justify-center items-center flex-col'>
         <h4 className='font-semibold text-secondary-color text-3xl'>Marcas</h4>
-        <h2 className='font-semibold text-5xl tracking-wide'>Nuestras Tiendas</h2>
-        <p className='font-semibold text-secondary-color mt-8 tracking-wider'>
-            Clic en el supercase para acceder a nuestras tiendas
+        <h2 className='font-semibold text-5xl tracking-wide text-center'>Nuestras Tiendas</h2>
+        <p className='font-semibold text-secondary-color mt-8 tracking-wider text-center'>
+            Clic en el supercase para acceder a nuestras tiendas 
         </p>
     </div>
 
@@ -54,7 +54,7 @@ export const Marcas =()=>{
         </div>
     </div>
 
-    <div className="container__button">
+    <div className="container__button mt-210">
         <a href="#" className="button type--C">
             <span className="button__text font-montserrat">Ir a TecnoSuper</span>
             <div className="button__drow1"></div>
