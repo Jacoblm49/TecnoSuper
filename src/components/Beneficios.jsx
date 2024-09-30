@@ -8,7 +8,8 @@ export const Beneficios = () => {
             <div className="w-full h-auto mt-40 relative">
                 <div 
                     className="absolute inset-0 bg-[#792EDE80] opacity-50"
-                ></div>
+                >
+                </div>
                 <div 
                     className="w-full h-[650px] bg-no-repeat bg-cover bg-center"
                     style={{ backgroundImage: `url('/img/bannerBeneficios.png')` }}

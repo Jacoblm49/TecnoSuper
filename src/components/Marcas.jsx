@@ -6,6 +6,9 @@ import '../assets/style/scrollbar.css'
 
 //Importar imagenes de logos
 import supercase from '../../public/img/Logos/Plugin/supercase.png'
+import hora from '../../public/img/Logos/Plugin/1hora.png'
+import ezviz from '../../public/img/Logos/Plugin/ezviz.png'
+import tecnosuper from '../../public/img/Logos/Plugin/tecnosuper.png'
 
 export const Marcas =()=>{
     return(
@@ -24,32 +27,25 @@ export const Marcas =()=>{
         <div className='flex w-[calc(100vw*4/5)] space-x-10'>
             {/* Elementos individuales */}
             
-            <div className='min-w-[25%] w-80 h-auto'>
+            <div className='min-w-[25%] min-h-[25%] py-10 rounded-xl 
+            hover:bg-secondary-color transition-all duration-300 ease-in-out hover:cursor-pointer
+            flex items-baseline justify-center'>
+                <img src={ezviz} alt="supercase" />
+            </div>
+            <div className='min-w-[25%] min-h-[25%] py-10 rounded-xl 
+            hover:bg-secondary-color transition-all duration-300 ease-in-out hover:cursor-pointer 
+            flex items-baseline justify-center'>
+                <img src={tecnosuper} alt="supercase" />
+            </div>
+            <div className='min-w-[25%] min-h-[25%] py-10 rounded-xl 
+            hover:bg-secondary-color transition-all duration-300 ease-in-out hover:cursor-pointer
+            flex items-baseline justify-center'>
                 <img src={supercase} alt="supercase" />
             </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
-            </div>
-            <div className='min-w-[25%] w-80 h-auto'>
-                <img src={supercase} alt="supercase" />
+            <div className='min-w-[25%] min-h-[25%] py-10 rounded-xl 
+            hover:bg-secondary-color transition-all duration-300 ease-in-out hover:cursor-pointer
+            flex items-baseline justify-center'>
+                <img src={hora} alt="supercase" />
             </div>
         </div>
     </div>

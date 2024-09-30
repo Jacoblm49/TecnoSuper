@@ -9,6 +9,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faFacebookMessenger, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'; // Importa el ícono de Facebook
 import { faGlobe, faMessage, faWebAwesome } from '@fortawesome/free-solid-svg-icons';
 
+//Hook para rutas
+import { NavLink } from 'react-router-dom';
+
 
 export const Footer = () =>{
     return(
@@ -59,7 +62,11 @@ export const Footer = () =>{
                 </div>
                 <div>
                     <h3 className='text-2xl font-bold text-secondary-color tracking-wide mb-5'>Legal</h3>
-                    <a href="#" className='font-semibold text-lg text-gray-500 my-10 decoration-solid'>Política de Tratamiento de datos</a>
+                    <NavLink
+                        to="/PoliticaDatos"
+                    >
+                        <a href="" className='font-semibold text-lg text-gray-500 my-10 hover:text-secondary-color transition-all duration-500 '>Política de Tratamiento de datos</a>
+                    </NavLink>
                     <img src={comercio} alt="Industria y Comercio" />
                 </div>
 
