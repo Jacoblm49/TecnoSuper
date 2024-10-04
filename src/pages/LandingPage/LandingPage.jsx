@@ -1,3 +1,6 @@
+//Diseño responvise
+import './../../assets/style/responsiveLanding.css'
+
 import { useEffect } from "react"
 import { Beneficios } from "../../components/Beneficios"
 import { Footer } from "../../components/Footer"

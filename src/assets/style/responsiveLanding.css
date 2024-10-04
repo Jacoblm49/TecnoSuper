@@ -1,0 +1,68 @@
+/* Diseño responsive de la navBar */
+
+
+@media screen and (max-width:900px){
+    .navLanding-ocultar{
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        display: none !important;
+        z-index: 30 !important;
+   
+    }
+
+    .navLanding-contenedor{
+        width: 100% !important;
+        height: 100% !important;
+        background-color:rgba(0, 0, 0, 0.721) !important;
+        position: fixed !important; 
+        top: 0 !important;
+        left: 0 !important;
+        z-index: 20 !important;
+        display: flex !important;
+    }
+    .navLanding-contenedor-btn{
+        display: block !important;
+    }
+    .navLanding-btn{
+        display: block !important;
+    }
+    .navLanding{
+        width: auto  !important;
+        height: 30em !important;
+        padding-top: 2em !important;
+        position: relative !important;
+        top: 0 !important;
+        align-items: start !important;
+        border-radius: 0 0 50%;
+        display: hidden !important;
+    }
+    .navLading__navegacion{
+        flex-direction: column;
+        align-items: start !important;
+        margin-left: 20px !important;
+    }
+ 
+    .navLanding__iniciar{
+        width: 70% !important;
+        align-items: start !important;
+        justify-content: left !important;
+    }
+  
+}
+@media screen and (max-width:1040px) {
+    
+    .navLanding{
+        padding:2em 0;
+        flex-direction: column;   
+        gap: 2em;
+        align-items: center;
+        justify-content: center;
+    }
+    .navLading__navegacion{
+        width: 100%;
+    }
+    .navLanding__iniciar{
+        width: 100%;
+    }
+}
