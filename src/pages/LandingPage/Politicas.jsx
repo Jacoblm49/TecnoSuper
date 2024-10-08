@@ -35,7 +35,7 @@ export const Politicas =()=>{
                <article>
                 <div className='w-full  flex flex-col items-center my-20 gap-10'>
                     <img src={info} alt="" className='w-20'/>
-                    <h2 className='text-gray-600 font-semibold text-5xl'>Política de Tratamientos de Datos Personales</h2>
+                    <h2 className='text-center text-gray-600 font-semibold text-5xl'>Política de Tratamientos de Datos Personales</h2>
                 </div>
                 <section className='w-full h-auto my-10'>
                     <div className='w-2/3 m-auto '> 
